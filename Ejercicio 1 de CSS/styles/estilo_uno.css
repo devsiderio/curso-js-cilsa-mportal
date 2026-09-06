@@ -1,13 +1,49 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  margin: 20px;
+body {
+  font-family: Arial, sans-serif;
 }
 
-p {
-  margin: 20px;
-  font-style: italic;
+.card {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #8c8c8c;
+}
+
+.header-black {
+  height: 35%;
+  background-color: black;
+}
+
+.accent-bar {
+  height: 40px;
+  background-color: #ff3366;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.content ul {
+  padding: 40px 50px;
+}
+
+.content li {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.content li:last-child {
+  margin-bottom: 0;
+}
+
+.footer {
+  height: 30px;
+  background-color: #6e6e6e;
 }
